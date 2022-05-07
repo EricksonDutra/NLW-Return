@@ -4,11 +4,11 @@ import { TouchableOpacity, TouchableOpacityProps, Image, ImageProps, Text } from
 import { styles } from './styles';
 
 interface Props extends TouchableOpacityProps{
-  title: string;
+  title: string; 
   image: ImageProps;
 }
 
-export function Option( { title, image, ...rest}: Props) {
+export function Option({ title, image, ...rest}: Props) {
   return (
     <TouchableOpacity 
     style={styles.container}
